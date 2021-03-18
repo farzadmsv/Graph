@@ -9,4 +9,7 @@ public:
     Graph(int);
     ~Graph();
     void addEdge(int,int);
+    void DFS(int);
+private:
+    
 };
