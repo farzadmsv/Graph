@@ -8,3 +8,7 @@ Graph::Graph(int V){
 void Graph::addEdge(int u, int v){
     adj[u].push_back(v);
 }
+
+Graph::~Graph(){
+    delete[] adj;
+}

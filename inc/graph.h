@@ -7,5 +7,6 @@ public:
     int V; 
     list<int>* adj; 
     Graph(int);
+    ~Graph();
     void addEdge(int,int);
 };
